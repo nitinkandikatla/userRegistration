@@ -10,12 +10,12 @@ public class UserRegistration {
 		String regex ="^[A-Z]{1}[a-z]{2,}";
 		String email="^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^-]+(?:\\.[a-zA-Z0-9_!#$%&'*+/=?`{|}~^-]+)*@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$";
 		String phone="^[0-9]{1,3}[ ][6-9]{1}[0-9]{9}$";
-		String pass="[a-zA-Z0-9]{8,}";
+		String pass="[a-z]*[A-Z]+[0-9]*$";
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter First Name :");
 		String s1=sc.nextLine();
 		System.out.println("Enter Last Name :");
-		String s2=sc.nextLine();
+		String s2=sc	.nextLine();
 		System.out.println("Enter Email :");
 		String s3=sc.nextLine();
 		System.out.println("Enter phone number :");
